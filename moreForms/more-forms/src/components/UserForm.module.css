@@ -1,0 +1,47 @@
+.formLabel {
+    background-color: rgb(241, 231, 231);
+    border: 1px solid black;
+    height: 50px;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 42%;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.marginLeft {
+    margin-left: 15px;
+}
+
+.formInput {
+    width: 200px;
+    height: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.errorMsg {
+    font-weight: bold;
+    color: red;
+    margin-left: 25px;
+}
+
+.textCenter {
+    text-align: center;
+    margin-left: 110px;
+}
