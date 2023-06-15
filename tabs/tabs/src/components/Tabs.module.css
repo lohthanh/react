@@ -1,0 +1,42 @@
+.list {
+    width: 60%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #39A2DB;
+    border-radius: 2rem;
+    padding-left: 0px;
+}
+
+.tabs {
+    width: 80%;
+    background: #053742;
+    margin: 3.5rem auto 1.5rem;
+    padding: 2rem 1rem;
+    color:  #E8F0F2;
+    border-radius: 2rem; 
+    text-align: center;
+}
+
+ul li {
+    width: 25rem;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 2rem;
+}
+
+ul li:hover {
+    background: rgba(50, 224, 196, 0.15);
+}
+
+ul li.active {
+    background: #39A2DB;
+}
+
+.outlet {
+    height: 600px;
+}
